@@ -1,0 +1,262 @@
+@charset 'utf-8';
+/*自适应*/
+@media screen and (max-width:370px)
+{
+    html
+    {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:420px)
+{
+    html
+    {
+        font-size: 50px;
+    }
+}
+@media screen and (min-width:420px) and (max-width:450px)
+{
+    html
+    {
+        font-size: 60px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:550px)
+{
+    html
+    {
+        font-size: 70px;
+    }
+}
+@media screen and (min-width:550px) and (max-width:650px)
+{
+    html
+    {
+        font-size: 80px;
+    }
+}
+@media screen and (min-width:650px) and (max-width:700px)
+{
+    html
+    {
+        font-size: 90px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:750px)
+{
+    html
+    {
+        font-size: 100px !important;
+    }
+}
+.customer img
+{
+    display: block;
+
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+.customer form,
+.customer .text
+{
+    margin-top: 60px;
+    padding: 15px;
+}
+.customer .text p
+{
+    font-size: .3rem;
+    line-height: 1.4;
+
+    color: #666;
+}
+.customer .group
+{
+    font-size: .32rem;
+    line-height: 1rem;
+
+    position: relative;
+
+    height: 1rem;
+    margin-top: 15px;
+    padding: 0 .3rem;
+
+    border-radius: 50px;
+    background: rgba(255,255,255,.85);
+}
+.customer .group:first-child
+{
+    margin-top: 0;
+}
+.customer .group label
+{
+    vertical-align: middle;
+
+    color: #2cc3c7;
+}
+.customer .group input
+{
+    font-size: .32rem;
+
+    vertical-align: middle;
+}
+.customer .btn
+{
+    font-size: .36rem;
+
+    display: block;
+
+    width: 100%;
+    margin-top: .8rem;
+    padding-top: .23rem;
+    padding-bottom: .23rem;
+
+    color: #fff;
+    border-radius: 45px;
+    background: rgba(46, 204, 113,1.0);
+}
+.btn-group .btn
+{
+    display: inline-block;
+
+    width: 40%;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    vertical-align: middle;
+}
+.btn-group .btn:last-child
+{
+    background: rgba(231, 76, 60,1.0);
+}
+.exam
+{
+    position: absolute;
+    top: 50%;
+    right: .18rem;
+
+    width: 1.8rem;
+    max-height: 90%;
+
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.exam img
+{
+    width: 100%;
+    margin-top: 0;
+}
+.login .bg
+{
+    background: url(../img/login.jpg) center;
+}
+.register .bg
+{
+    background: url(../img/register.jpg) center;
+}
+.flex
+{
+    display:         flex;
+    display: -webkit-flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    background-image:         linear-gradient(to bottom, rgba(146, 135, 187, .8) 0%, rgba(0, 0, 0, .6) 100%);
+    background-image: -webkit-linear-gradient(to bottom, rgba(146, 135, 187, .8) 0%, rgba(0, 0, 0, .6) 100%);
+
+    justify-content: center;
+    align-items: center;
+}
+.flex p
+{
+    font-size: .3rem;
+
+    color: #666;
+}
+.login__check
+{
+    width: 2.5rem;
+    height: .4rem;
+    margin-left: 2.2rem;
+
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+
+    background: #fff;
+}
+.login__check:before
+{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+
+    width: .4rem;
+    height: .8rem;
+
+    content: '';
+
+    background: #fff;
+    -webkit-box-shadow: inset -.2rem -2rem 2rem rgba(0, 0, 0, .2);
+            box-shadow: inset -.2rem -2rem 2rem rgba(0, 0, 0, .2);
+}
+@media (min-width: 750px)
+{
+    *
+    {
+        font-size: 20px;
+    }
+    .customer form
+    {
+        width: 450px;
+    }
+    .login__check
+    {
+        width: 180px;
+        height: 30px;
+        margin-left: 168px;
+
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+                transform-origin: 0 100%;
+
+        background: #fff;
+    }
+    .login__check:before
+    {
+        width: 30px;
+        height: 60px;
+    }
+    .customer .btn
+    {
+        font-size: 20px;
+
+        margin-top: 30px;
+        padding: 15px;
+
+        cursor: pointer;
+    }
+    .customer .group
+    {
+        font-size: 20px;
+        line-height: 48px;
+
+        height: 50px;
+        margin-top: 30px;
+        padding: 0 30px;
+    }
+    .customer .group input
+    {
+        font-size: 20px;
+
+        width:         calc(100% - 110px);
+        width: -webkit-calc(100% - 110px);
+        background: transparent !important;
+    }
+}
